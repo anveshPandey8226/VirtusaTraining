@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\anves\AppData\Local\Temp\testng-eclipse-602112242\testng-customsuite.xml</span>
+                    <span>C:\Users\anves\AppData\Local\Temp\testng-eclipse--1380549435\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_06" class="method navigator-link" hash-for-method="pressLoginBtn">pressLoginBtn</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_05" class="method navigator-link" hash-for-method="checkEmailEntryContinue">checkEmailEntryContinue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,17 +118,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_06" class="method navigator-link" hash-for-method="clickFinalLogin">clickFinalLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_05" class="method navigator-link" hash-for-method="ckeckSignInClick">ckeckSignInClick</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_06" class="method navigator-link" hash-for-method="enterPassword">enterPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_06" class="method navigator-link" hash-for-method="enterUsername">enterUsername</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testNG_assignnments.Assignment_05" class="method navigator-link" hash-for-method="moveSignInHold">moveSignInHold</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -146,23 +141,23 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testNG_assignnments.Assignment_06</span>
+              <span class="class-name">testNG_assignnments.Assignment_05</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="pressLoginBtn">
-                  </a> <!-- pressLoginBtn -->
-                  <span class="method-name">pressLoginBtn</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;L0Z3Pu&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (835, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+                  <a name="checkEmailEntryContinue">
+                  </a> <!-- checkEmailEntryContinue -->
+                  <span class="method-name">checkEmailEntryContinue</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;userName&quot;]&quot;}
   (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6dad859a3b052257fef96f659f4a3b2, clickElement {id=739a0e1e-8016-41e0-bd6f-866e152a6cfa}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\anves\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51293/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (b6dad859a3b052257fef96f659f4a3b2)] -&gt; xpath: (//button[@type=&quot;submit&quot;])[1]]
-Session ID: b6dad859a3b052257fef96f659f4a3b2
+Command: [ccaebab85667a7f9ac8f946851b59f15, findElement {using=xpath, value=//*[@id=&quot;userName&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\anves\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64436/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ccaebab85667a7f9ac8f946851b59f15
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -175,10 +170,12 @@ Session ID: b6dad859a3b052257fef96f659f4a3b2
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at com.qa.pages.Flipkart.clickOnLoginBtn(Flipkart.java:19)
-	at testNG_assignnments.Assignment_06.pressLoginBtn(Assignment_06.java:24)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.qa.pages.Snapdeal.enterEmail(Snapdeal.java:29)
+	at testNG_assignnments.Assignment_05.checkEmailEntryContinue(Assignment_05.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -216,28 +213,21 @@ Session ID: b6dad859a3b052257fef96f659f4a3b2
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testNG_assignnments.Assignment_06</span>
+              <span class="class-name">testNG_assignnments.Assignment_05</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickFinalLogin">
-                  </a> <!-- clickFinalLogin -->
-                  <span class="method-name">clickFinalLogin</span>
+                  <a name="ckeckSignInClick">
+                  </a> <!-- ckeckSignInClick -->
+                  <span class="method-name">ckeckSignInClick</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="enterPassword">
-                  </a> <!-- enterPassword -->
-                  <span class="method-name">enterPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterUsername">
-                  </a> <!-- enterUsername -->
-                  <span class="method-name">enterUsername</span>
+                  <a name="moveSignInHold">
+                  </a> <!-- moveSignInHold -->
+                  <span class="method-name">moveSignInHold</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,7 +235,7 @@ Session ID: b6dad859a3b052257fef96f659f4a3b2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\anves\AppData\Local\Temp\testng-eclipse-602112242\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\anves\AppData\Local\Temp\testng-eclipse--1380549435\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -254,7 +244,7 @@ Session ID: b6dad859a3b052257fef96f659f4a3b2
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNG_assignnments.Assignment_06&quot;/&gt;
+      &lt;class name=&quot;testNG_assignnments.Assignment_05&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -294,28 +284,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pressLoginBtn')
-data.setCell(0, 2, 'testNG_assignnments.Assignment_06')
-data.setCell(0, 3, 1122);
+data.setCell(0, 1, 'moveSignInHold')
+data.setCell(0, 2, 'testNG_assignnments.Assignment_05')
+data.setCell(0, 3, 2278);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickFinalLogin')
-data.setCell(1, 2, 'testNG_assignnments.Assignment_06')
-data.setCell(1, 3, 1072);
+data.setCell(1, 1, 'ckeckSignInClick')
+data.setCell(1, 2, 'testNG_assignnments.Assignment_05')
+data.setCell(1, 3, 2213);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enterUsername')
-data.setCell(2, 2, 'testNG_assignnments.Assignment_06')
-data.setCell(2, 3, 112);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'enterPassword')
-data.setCell(3, 2, 'testNG_assignnments.Assignment_06')
-data.setCell(3, 3, 99);
+data.setCell(2, 1, 'checkEmailEntryContinue')
+data.setCell(2, 2, 'testNG_assignnments.Assignment_05')
+data.setCell(2, 3, 81);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -341,32 +327,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNG_assignnments.Assignment_06</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNG_assignnments.Assignment_05</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">moveSignInHold</span>
+                <span class="method-start">28507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ckeckSignInClick</span>
+                <span class="method-start">30800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">pressLoginBtn</span>
-                <span class="method-start">58792 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">enterUsername</span>
-                <span class="method-start">59925 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">enterPassword</span>
-                <span class="method-start">60039 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">clickFinalLogin</span>
-                <span class="method-start">60140 ms</span>
+                <span class="method-name">checkEmailEntryContinue</span>
+                <span class="method-start">33019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">61214 ms</span>
+                <span class="method-start">33112 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
